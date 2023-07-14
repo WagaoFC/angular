@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
 })
 
 export class FirstComponentComponent {
+  title: string
+  cursos: string[] = ['Java', 'Ext JS', 'Angular']
 
+  constructor() {
+    this.title = 'Title of Aplication'
+  }
 }
