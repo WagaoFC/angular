@@ -9,6 +9,9 @@ export class DataBindingComponent {
   url = 'http://google.com'
   cursoAngular = true
   urlImagem = 'http://lorempixel.com.br/500/400/?1'
+  valorAtual = ''
+  valorSalvo = ''
+  isMouseOver = false
 
   getValor() {
     return 1
@@ -16,5 +19,21 @@ export class DataBindingComponent {
 
   curtirCurso() {
     return true
+  }
+
+  botaoClicado() {
+    alert('mim dê')
+  }
+
+  onKeyUp(evento: KeyboardEvent) {
+    this.valorAtual = (<HTMLInputElement>evento.target).value
+  }
+
+  salvarValor(valor: any) {
+    this.valorSalvo = valor
+  }
+
+  onMouseOverOut() {
+    this.isMouseOver = !this.isMouseOver
   }
 }
