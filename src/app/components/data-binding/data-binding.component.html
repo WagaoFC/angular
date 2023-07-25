@@ -66,7 +66,7 @@
     </div>
   </article> -->
 
-  <article>
+  <!-- <article>
     <h3>Event binding</h3>
     <div>
       <button class="btn btn-primary" (click)="botaoClicado()">
@@ -94,6 +94,19 @@
       >
         Passe o mouse sobre mim
       </span>
+    </div>
+  </article> -->
+
+  <article>
+    <h3>Two-way data binding</h3>
+
+    <div>
+      <input
+        type="text"
+        [(ngModel)]="nome"
+      >
+
+      <p>Você digitou: {{ nome }}</p>
     </div>
   </article>
 

@@ -12,6 +12,7 @@ export class DataBindingComponent {
   valorAtual = ''
   valorSalvo = ''
   isMouseOver = false
+  nome = 'abc'
 
   getValor() {
     return 1
