@@ -8,13 +8,15 @@ import { FirstComponentComponent } from './components/first-component/first-comp
 import { CursosModule } from './cursos/cursos.module';
 import { DataBindingComponent } from './components/data-binding/data-binding.component';
 import { InputPropertyComponent } from './input-property/input-property.component';
+import { OutputPropertyComponent } from './output-property/output-property.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponentComponent,
     DataBindingComponent,
-    InputPropertyComponent
+    InputPropertyComponent,
+    OutputPropertyComponent
   ],
   imports: [
     BrowserModule,
