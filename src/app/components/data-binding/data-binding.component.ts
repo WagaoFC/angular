@@ -13,6 +13,7 @@ export class DataBindingComponent {
   valorSalvo = ''
   isMouseOver = false
   nome = 'abc'
+  nomeDoCurso = 'Angular'
 
   getValor() {
     return 1
