@@ -13,6 +13,7 @@ export class AppComponent {
     role: 'Admin',
   }
 
-
   title = 'curso-angular';
+
+  valor = 5
 }
