@@ -7,6 +7,8 @@ import { DiretivaNgifComponent } from './diretiva-ngif/diretiva-ngif.component';
 import { DiretivaNgswitchComponent } from './diretiva-ngswitch/diretiva-ngswitch.component';
 import { DiretivaNgforComponent } from './diretiva-ngfor/diretiva-ngfor.component';
 import { ExampleNgContentComponent } from './example-ng-content/example-ng-content.component';
+import { BackgroundColorDirective } from './shared/background-color.directive';
+import { CustomDiretivesComponent } from './custom-diretives/custom-diretives.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ExampleNgContentComponent } from './example-ng-content/example-ng-conte
     DiretivaNgifComponent,
     DiretivaNgswitchComponent,
     DiretivaNgforComponent,
-    ExampleNgContentComponent
+    ExampleNgContentComponent,
+    BackgroundColorDirective,
+    CustomDiretivesComponent
   ],
   imports: [
     BrowserModule,
