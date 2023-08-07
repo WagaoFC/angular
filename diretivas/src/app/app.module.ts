@@ -9,6 +9,7 @@ import { DiretivaNgforComponent } from './diretiva-ngfor/diretiva-ngfor.componen
 import { ExampleNgContentComponent } from './example-ng-content/example-ng-content.component';
 import { BackgroundColorDirective } from './shared/background-color.directive';
 import { CustomDiretivesComponent } from './custom-diretives/custom-diretives.component';
+import { HighlightMouseDirective } from './shared/highlight-mouse.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CustomDiretivesComponent } from './custom-diretives/custom-diretives.co
     DiretivaNgforComponent,
     ExampleNgContentComponent,
     BackgroundColorDirective,
-    CustomDiretivesComponent
+    CustomDiretivesComponent,
+    HighlightMouseDirective
   ],
   imports: [
     BrowserModule,
