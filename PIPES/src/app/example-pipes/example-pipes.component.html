@@ -1,6 +1,6 @@
 <h5>Examples of Pipes</h5>
 
-<p>Title: {{ book.title | uppercase }}</p>
+<p>Title: {{ book.title | uppercase | camelCase }}</p>
 <p>Rating: {{ book.rating | number:'1.1-1' }}</p>
 <p>Number Pages: {{ book.numberPages | number }}</p>
 <p>Price: {{ book.price | currency:'BRL' }}</p>
